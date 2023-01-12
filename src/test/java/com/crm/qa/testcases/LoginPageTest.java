@@ -49,6 +49,7 @@ public class LoginPageTest extends TestBase {
 	
 	@Test(dataProvider = "getLoginDetails")
 	public void loginTest(String username,String password){
+		logger.info("Username: "+username +"--------"+ "Password: "+password);
 		homePage = loginPage.login(username,password);
 	}
 	
