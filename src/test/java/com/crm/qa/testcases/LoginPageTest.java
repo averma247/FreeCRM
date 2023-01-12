@@ -1,5 +1,6 @@
 package com.crm.qa.testcases;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -13,6 +14,7 @@ public class LoginPageTest extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
 	
+	
 	public LoginPageTest() {
 		super();
 	}
@@ -22,6 +24,7 @@ public class LoginPageTest extends TestBase {
 		
 		init();
 		loginPage= new LoginPage();
+		logger= Logger.getLogger(LoginPageTest.class);
 		
 	}
 	
@@ -29,6 +32,7 @@ public class LoginPageTest extends TestBase {
 	public void loginPageTitleTest() {
 		String pageTitle= loginPage.validateLoginPageTitle();
 		System.out.println("Page Title: "+ pageTitle);
+		logger.info("Page Title: "+ pageTitle);
 		Assert.assertEquals(pageTitle, "Free CRM - CRM software for customer relationship management, sales, and support.");
 	}
 	
