@@ -21,7 +21,7 @@ public class TestBase {
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
-	public static Logger logger = Logger.getLogger(TestBase.class);
+	public static Logger logger;
 
 	public TestBase() {
 

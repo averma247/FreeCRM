@@ -1,11 +1,11 @@
-2023-01-12 21:57:37 INFO  WebEventListener:42 - Before navigating to: 'https://classic.freecrm.com/index.html'
-2023-01-12 21:57:45 INFO  WebEventListener:49 - Navigated to:'https://classic.freecrm.com/index.html'
-2023-01-12 21:57:45 INFO  LoginPageTest:35 - Page Title: Free CRM - CRM software for customer relationship management, sales, and support.
-2023-01-12 21:58:06 INFO  WebEventListener:42 - Before navigating to: 'https://classic.freecrm.com/index.html'
-2023-01-12 21:58:14 INFO  WebEventListener:49 - Navigated to:'https://classic.freecrm.com/index.html'
-2023-01-12 21:59:07 INFO  LoginPageTest:86 - Trying to find Element By : By.name: username
-2023-01-12 21:59:12 INFO  LoginPageTest:93 - Found Element By : By.name: username
-2023-01-12 21:59:21 INFO  LoginPageTest:86 - Trying to find Element By : By.name: password
-2023-01-12 21:59:21 INFO  LoginPageTest:93 - Found Element By : By.name: password
-2023-01-12 21:59:30 INFO  LoginPageTest:86 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-01-12 21:59:30 INFO  LoginPageTest:93 - Found Element By : By.xpath: //input[@type='submit']
+2023-01-12 22:46:42 INFO  WebEventListener:45 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2023-01-12 22:46:48 INFO  WebEventListener:52 - Navigated to:'https://classic.freecrm.com/index.html'
+2023-01-12 22:46:48 INFO  LoginPageTest:35 - Page Title: Free CRM - CRM software for customer relationship management, sales, and support.
+2023-01-12 22:46:50 INFO  WebEventListener:45 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2023-01-12 22:46:57 INFO  WebEventListener:52 - Navigated to:'https://classic.freecrm.com/index.html'
+2023-01-12 22:46:57 INFO  LoginPageTest:89 - Trying to find Element By : By.name: username
+2023-01-12 22:46:57 INFO  LoginPageTest:96 - Found Element By : By.name: username
+2023-01-12 22:46:57 INFO  LoginPageTest:89 - Trying to find Element By : By.name: password
+2023-01-12 22:46:57 INFO  LoginPageTest:96 - Found Element By : By.name: password
+2023-01-12 22:46:58 INFO  LoginPageTest:89 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-01-12 22:46:58 INFO  LoginPageTest:96 - Found Element By : By.xpath: //input[@type='submit']
