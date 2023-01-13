@@ -143,7 +143,7 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		logger.info("Exception occured: " + error);
 
 		try {
-			TestUtil.takeScreenshotAtEndOfTest();
+			TestUtil.takeScreenshotAfterExecution();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

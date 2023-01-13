@@ -18,12 +18,22 @@ public class TestUtil extends TestBase {
 		driver.switchTo().frame(frameName);
 	}
 	
-	public static void takeScreenshotAtEndOfTest() throws IOException {
+	public static String takeScreenshotAtTestFailure() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
 		screenshotPath=currentDir + "/screenshots/" + System.currentTimeMillis() + ".png";
 		FileUtils.copyFile(scrFile, new File(screenshotPath));
+		return screenshotPath;
 	}
+	
+	public static void takeScreenshotAfterExecution() throws IOException {
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String currentDir = System.getProperty("user.dir");
+		screenshotPath=currentDir + "/screenshots/" + System.currentTimeMillis() + ".png";
+		FileUtils.copyFile(scrFile, new File(screenshotPath));
+		
+	}
+	
 	
 
 }

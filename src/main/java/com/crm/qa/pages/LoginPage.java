@@ -13,7 +13,7 @@ public class LoginPage extends TestBase {
 		@FindBy(name="username")
 		WebElement username;
 		
-		@FindBy(name="password")
+		@FindBy(name="password11")
 		WebElement password;
 		
 		@FindBy(xpath="//input[@type='submit']")
